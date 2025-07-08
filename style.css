@@ -24,13 +24,12 @@ html, body {
         border: 0.3rem solid white;
         background: transparent;
         color: white;
-        font-size: 8rem;
+        font-size: max(7vw, 7vh);
         font-weight: bold;
         cursor: pointer;
         max-height: 90%;
         max-width: 90%;
         aspect-ratio: 1 / 1;
-        
     }
 
     .container img {
