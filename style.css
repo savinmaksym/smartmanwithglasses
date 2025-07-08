@@ -18,19 +18,17 @@ html, body {
 
     .container button {
         display: flex;
-        width: 30rem;
-        /*height: 30rem;*/
-        border-radius: 5rem;
-        border: 0.3rem solid white;
+        width: max(30vw, 30vh);
+        border-radius: max(3vw, 3vh);
+        border: max(0.3vw, 0.3vh) solid white;
         background: transparent;
         color: white;
-        font-size: 8rem;
+        font-size: max(8vw, 8vh);
         font-weight: bold;
         cursor: pointer;
         max-height: 90%;
         max-width: 90%;
         aspect-ratio: 1 / 1;
-        
     }
 
     .container img {
