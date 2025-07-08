@@ -9,7 +9,7 @@ html, body {
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +18,12 @@ html, body {
 
     .container button {
         display: flex;
-        width: max(30vw, 30vh);
-        border-radius: max(3vw, 3vh);
-        border: max(0.3vw, 0.3vh) solid white;
+        width: min(50vw, 50vh);
+        border-radius: min(3vw, 3vh);
+        border: min(0.3vw, 0.3vh) solid white;
         background: transparent;
         color: white;
-        font-size: max(8vw, 8vh);
+        font-size: min(14vw, 14vh);
         font-weight: bold;
         cursor: pointer;
         max-height: 90%;
