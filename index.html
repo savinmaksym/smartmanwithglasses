@@ -7,15 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Smart man with glasses download wallpaper</title>
     <link rel="icon" href="icon.png" type="image/png">
-
+    
 </head>
 <body>
+    <audio id="music" play loop hidden>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="container">
-        <img src="img.jpg" alt="Smart man with glasses" />
+        <button id="showImageBtn" onclick="showImage()">click on me!:)</button>
+        <img id="myImage" src="img.jpg" alt="Smart man with glasses" />
         <a href="https://github.com/savinmaksym" class="github-button" target="_blank">
             <i class="fab fa-github"></i> GitHub
         </a>
     </div>
-    
+
+    <script>
+        function showImage() {
+            document.getElementById('showImageBtn').style.display = 'none'; 
+            document.getElementById('myImage').style.display = 'block';
+            document.getElementById('music').play()
+        }
+    </script>
 </body>
 </html>
