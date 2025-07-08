@@ -19,7 +19,7 @@ html, body {
     .container button {
         display: flex;
         width: 30rem;
-        height: 30rem;
+        /*height: 30rem;*/
         border-radius: 5rem;
         border: 0.3rem solid white;
         background: transparent;
@@ -29,6 +29,8 @@ html, body {
         cursor: pointer;
         max-height: 90%;
         max-width: 90%;
+        aspect-ratio: 1 / 1;
+        
     }
 
     .container img {
