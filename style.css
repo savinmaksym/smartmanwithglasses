@@ -29,6 +29,8 @@ html, body {
         cursor: pointer;
         max-height: 90%;
         max-width: 90%;
+        aspect-ratio: 1 / 1;
+        
     }
 
     .container img {
