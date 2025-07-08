@@ -23,7 +23,7 @@ html, body {
         border: max(0.3vw, 0.3vh) solid white;
         background: transparent;
         color: white;
-        font-size: max(8.5vw, 8.5vh);
+        font-size: max(8vw, 8vh);
         font-weight: bold;
         cursor: pointer;
         max-height: 90%;
