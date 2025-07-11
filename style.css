@@ -10,6 +10,9 @@ html, body {
 
 .container {
     height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,4 +72,61 @@ html, body {
     border: min(0.3vw, 0.3vh) solid white;
     border-radius: min(1vw, 1vh);
     padding: min(1vw, 1vh);
+}
+
+#ad_baner1 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+    #ad_baner1 img {
+        display: block;
+        height: 100%;
+        width: auto;
+    }
+
+#ad_baner2 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 9999;
+}
+    #ad_baner2 img {
+        display: block;
+        height: 100%;
+        width: auto;
+    }
+
+#ad_baner3 {
+    object-fit: contain;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+}
+    #ad_baner3 img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+@media (orientation: portrait) {
+    #ad_baner3 {
+        display: block;
+    }
+}
+
+@media (orientation: landscape) {
+    #ad_baner1 {
+        display: block;
+    }
+    #ad_baner2 {
+        display: block;
+    }
 }
