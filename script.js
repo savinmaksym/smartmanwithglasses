@@ -18,3 +18,16 @@ function showRandomFact() {
         });
     
 }
+
+
+
+
+document.addEventListener("visibilitychange", () => {
+    const audio = document.getElementById("music");
+    if (document.hidden) {
+        audio.pause();
+    } else {
+        audio.currentTime = 0;
+        audio.play();
+    }
+});
